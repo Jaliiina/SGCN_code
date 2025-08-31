@@ -28,3 +28,11 @@ Install dependencies:
 pip install torch torchvision torchaudio
 pip install torch-geometric
 pip install matplotlib
+
+## ✨ Notes
+
+SGCN uses weighted averaging of subgraph models (higher validation accuracy → higher weight).
+
+All experiments follow the same train/val/test split provided by PyTorch Geometric Planetoid datasets.
+
+Hyperparameters (batch size, hidden dim, learning rate, etc.) can be adjusted in each script.
