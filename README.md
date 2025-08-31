@@ -28,6 +28,7 @@ Install dependencies:
 pip install torch torchvision torchaudio
 pip install torch-geometric
 pip install matplotlib
+```
 
 ## ✨ Notes
 
